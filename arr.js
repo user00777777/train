@@ -6,4 +6,4 @@ let [one = 0, ...last] = arr || []; //Сщ значения ми по умолч
 one;
 last;
 
-let h1 = (document.querySelector(".h1").innerHTML = last);
+let h1 = document.querySelector(".h1");
